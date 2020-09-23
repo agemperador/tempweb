@@ -1,0 +1,43 @@
+.App-logo {
+    pointer-events: none;
+    background-color: transparent;
+    width: 80%;
+}
+
+.logo-center {
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    align-items: center;
+    background-color: transparent;
+}
+
+.logo-container {
+    align-items: center;
+    display: flex;
+    width: 40%;
+    height: 30%;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 30px;
+    background-color: transparent;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+    transition: all 1s;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo.rotate {
+        animation: App-logo-spin 15s infinite linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
