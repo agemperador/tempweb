@@ -17,6 +17,8 @@ const readYOffset= ()=>{
     return window.pageYOffset>50
 }
 
+const imgRandom = 'https://m.media-amazon.com/images/I/71jod9LB42L._SS500_.jpg'
+
 const Banner = ()=>{
 
     const [headerState,setHeaderState] = useState(true)
@@ -49,7 +51,10 @@ const Banner = ()=>{
                                 onMouseLeave={()=>changeBannerMode()}
                                 onMouseEnter={()=>changeBannerMode()}>
                             
-                            <span>Banner principal, slider o lo que quieras</span>
+                            <div className='inside'>
+                                <span>Pensalo</span>
+                                <span>Lo hacemos realidad</span>
+                            </div>
 
                 </TransparentLayer>
 
