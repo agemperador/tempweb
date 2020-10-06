@@ -7,7 +7,7 @@ const listIndexMenu = [
         name: "Inicio",
         link: '/',
         color: 'd04040'
-    },{
+    }/* ,{
         name: "Precios",
         link: '/prices',
         color: '0740c0'
@@ -19,7 +19,7 @@ const listIndexMenu = [
         name: "Clientes",
         link: '/',
         color: '904080'
-    }
+    } */
 ]
 
 

@@ -10,6 +10,7 @@ position:relative;
 background-color: #${props => props.background ? props.background : 'fff' };
 align-items:center;
 text-align: center;
+justify-content:center;
 span {
     margin-top: 50px;
     display:block;

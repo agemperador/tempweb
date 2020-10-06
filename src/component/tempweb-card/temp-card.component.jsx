@@ -1,13 +1,16 @@
 import React from 'react'
 
-import {PayCardContainer} from './temp-card.styles'
+import {PayCardContainer,Grid} from './temp-card.styles'
 
 
 const TempWebCard = () =>(
 
     <PayCardContainer>
-        <h1>Título</h1>
-        <span>Precio</span>
+
+        <Grid>
+            <span>Precio 1</span>
+            <span>Precio 2</span>
+        </Grid>            
     </PayCardContainer>
     
 )
