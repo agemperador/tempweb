@@ -16,12 +16,10 @@ export const TransparentLayer  = styled.div`
     align-items:center;
     display:flex;
     transition: all ease-in 0.5s ;
-
     
     .inside{
         opacity:  ${props => props.bannerState ? '1' : '0' }; 
         transform: ${props => props.bannerState ? 'transitionY(100%)' : 'transitionY(-100%)' }; 
-
         width:100%;
         transition: ease-in-out 2s ;
         span{
@@ -29,9 +27,4 @@ export const TransparentLayer  = styled.div`
         }
     }
     
-    
-
-  
- 
-
 `

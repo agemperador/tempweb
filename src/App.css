@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
 .App {
     text-align: center;
 }
@@ -9,9 +16,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {

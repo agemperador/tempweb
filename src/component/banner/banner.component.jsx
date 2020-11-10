@@ -36,9 +36,9 @@ const Banner = ()=>{
     };
     
     useEffect(() => {
-        window.addEventListener('scroll', handleScroll, { passive: true });
+        window.addEventListener('scroll', handleScroll, { passive: true })
         return () => {
-            window.removeEventListener('scroll', handleScroll);
+            window.removeEventListener('scroll', handleScroll)
         };
     }, []);
 
@@ -58,7 +58,7 @@ const Banner = ()=>{
 
                 </TransparentLayer>
 
-            <SectionBorder color='4B7A9D' side='bot-right' state={headerState}/>
+            <SectionBorder color='4B7A9D' side='bot-center' state={headerState}/>
 
 
         </div>

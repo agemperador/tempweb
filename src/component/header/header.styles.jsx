@@ -14,7 +14,7 @@ export const FixedContainer = styled.div`
     height: ${({headerState})=>headerState? HEADER_HEIGHTS[0]: HEADER_HEIGHTS[1]};
     z-index: 11;
     display:flex;
-    transition: height 0.5s
+    transition: height 0.5s;
     
 `
 
