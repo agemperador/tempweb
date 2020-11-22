@@ -5,7 +5,7 @@ export const CardSliderContainer = styled.div`
 
     width: 100%;
     height: 90%;
-    background-color:#aaa;
+    background-color:#bbb;
     display: flex;
     flex-direction:row;
     justify-self: stretch;
